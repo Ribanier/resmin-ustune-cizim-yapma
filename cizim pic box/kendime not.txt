@@ -1,0 +1,10 @@
+pictureboxın konumunu alıyor onu picturebox taki resmin pikselini alıcak sekilde ayarla
+
+mouse basılı tutmayı bulamadın o yuzden mousea basma ve bırakma eventlerini kullanıcaksın
+basıldıgında degişken "true" olucak bırakınca "false" olucak 
+ona gore kodları mouse MOVE a geçireceksin
+
+
+
+--------------------------------------------------
+herseyi ttamamlayınca kendi projene gecir.
