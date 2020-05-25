@@ -1,6 +1,10 @@
-pictureboxın konumunu alıyor onu picturebox taki resmin pikselini alıcak sekilde ayarla
+YAPILACAK
 
-mouse basılı tutmayı bulamadın o yuzden mousea basma ve bırakma eventlerini kullanıcaksın
+-pictureboxın konumunu alıyor onu picturebox taki resmin pikselini alıcak sekilde ayarla
+
+YAPILDI
+
+-mouse basılı tutmayı bulamadın o yuzden mousea basma(DOWN) ve bırakma(UP) eventlerini kullanıcaksın
 basıldıgında degişken "true" olucak bırakınca "false" olucak 
 ona gore kodları mouse MOVE a geçireceksin
 
