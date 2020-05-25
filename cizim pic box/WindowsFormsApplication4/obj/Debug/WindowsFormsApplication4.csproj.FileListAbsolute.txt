@@ -10,3 +10,12 @@ c:\users\sadik\documents\visual studio 2013\Projects\WindowsFormsApplication4\Wi
 E:\GitHub\projemde-kullanacagim-kod\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
 E:\GitHub\projemde-kullanacagim-kod\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 E:\GitHub\projemde-kullanacagim-kod\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+E:\GitHub\projemde-kullanacagim-kod\cizim pic box\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
