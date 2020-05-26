@@ -1,12 +1,13 @@
 YAPILACAK
-
--pictureboxın konumunu alıyor onu picturebox taki resmin pikselini alıcak sekilde ayarla
+-projene gecirmek için düzenlemeler yap nasıl gecirecegiğne karar ver
 
 YAPILDI
 
 -mouse basılı tutmayı bulamadın o yuzden mousea basma(DOWN) ve bırakma(UP) eventlerini kullanıcaksın
 basıldıgında degişken "true" olucak bırakınca "false" olucak 
 ona gore kodları mouse MOVE a geçireceksin
+
+-pictureboxın konumunu alıyor onu picturebox taki resmin pikselini alıcak sekilde ayarla
 
 
 
