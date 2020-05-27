@@ -1,5 +1,6 @@
 YAPILACAK
--projene gecirmek için düzenlemeler yap nasıl gecirecegiğne karar ver
+-projene gecirmek için düzenlemeler yap nasıl gecirecegiğne karar ver(daha sonra)
+-biraz daha geliştir çizimlerin pürüzsüz olmasını sağla
 
 YAPILDI
 
