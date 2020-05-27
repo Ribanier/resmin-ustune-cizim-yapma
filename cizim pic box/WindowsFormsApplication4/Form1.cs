@@ -47,12 +47,16 @@ namespace WindowsFormsApplication4
                      */
 
                     //   int fboy=1;   
-                    bmp.SetPixel(fark_x, fark_y, Color.Black);                  
-                    int[] dizi = { 0, -1, 0, +1, +1, 0, -1, 0, -1, 1, 1, -1, +1, +1, -1, -1 };
-                    for (int i = 0; i < dizi.Length; i++)
+                   
+                    if (!(x <= 0 || x >= pic_x || y <= 0 || y >= pic_y))
                     {
-                        bmp.SetPixel(fark_x + dizi[i], fark_y + dizi[i + 1], Color.Black);
-                        if (i + 1 == 15) break;
+                        bmp.SetPixel(fark_x, fark_y, Color.Black);
+                       int[] dizi = { 0, -1, 0, +1, +1, 0, -1, 0, -1, 1, 1, -1, +1, +1, -1, -1 };
+                        for (int i = 0; i < dizi.Length; i++)
+                        {
+                            bmp.SetPixel(fark_x + dizi[i], fark_y + dizi[i + 1], Color.Black);
+                            if (i + 1 == 15) break;
+                       }
                     }
                   //A1 BOLGESİ
                     pictureBox1.Image = bmp;
@@ -76,10 +80,14 @@ namespace WindowsFormsApplication4
         {
             cizim = false;
         }
-
+        int say=1;
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image.Save(@"C:\Users\sadik\Desktop\" + "asdasd.png");
+           string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+             pictureBox1.Image.Save(path + "/"+textBox1.Text); 
+            textBox1.Text = "adsız"+say+".png"; 
+            say++;
+
         }
 
        
