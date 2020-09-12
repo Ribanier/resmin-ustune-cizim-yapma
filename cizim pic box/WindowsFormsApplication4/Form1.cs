@@ -22,6 +22,8 @@ namespace WindowsFormsApplication4
         {
             try
             {
+               // Cursor.Position = new Point(60, 54);
+               
                 if (cizim == true)
                 {
                     var loc = pictureBox1.PointToClient(Cursor.Position);
@@ -46,19 +48,54 @@ namespace WindowsFormsApplication4
                     ayni islem y icinde gecerli
                      */
 
-                    //   int fboy=1;   
-                   
-                    if (!(x <= 0 || x >= pic_x || y <= 0 || y >= pic_y))
+                    //   int fboy=1;    
+                    int[] dizi = { 0, -1, 0, +1, +1, 0, -1, 0, -1, 1, 1, -1, +1, +1, -1, -1 };
+                    //imleç picturebox tan cıkınca kenarları byasınfirca içerde sıkısmıs gıbı
+
+                   /* if (x < 0)
                     {
-                        bmp.SetPixel(fark_x, fark_y, Color.Black);
-                       int[] dizi = { 0, -1, 0, +1, +1, 0, -1, 0, -1, 1, 1, -1, +1, +1, -1, -1 };
+                        if (y < 0) {
+                            fark_y = 0;
+                        bmp.SetPixel(0, fark_y, Color.Black);  
+                        bmp.SetPixel(1,fark_y, Color.Black);
+                        bmp.SetPixel(0, fark_y-1, Color.Black);
+                        bmp.SetPixel(1, fark_y-1, Color.Black);
+                        bmp.SetPixel(0, fark_y+1, Color.Black);
+                        bmp.SetPixel(1, fark_y + 1, Color.Black);  }
+                    }  
+                    else if(y<0)
+                    {
+                        if(x<0)
+                        {
+ bmp.SetPixel(fark_x, 0, Color.Black);
+                       
+                        bmp.SetPixel(fark_x+1,0 , Color.Black);
+                        bmp.SetPixel(fark_x-1, 0, Color.Black);
+                        bmp.SetPixel(fark_x, 1, Color.Black);
+                        bmp.SetPixel(fark_x+1, 1, Color.Black);
+                        bmp.SetPixel(fark_x-1,  1, Color.Black);  
+                        }
+                       
+                    }
+                    else if(x>res_x)
+                    {
+
+                    }
+                    else if(y>res_y)
+                    {
+
+                    }
+                    else*/ //
+                   if (!(x <= 0 || x >= pic_x || y <= 0 || y >= pic_y))
+                    {
+                        bmp.SetPixel(fark_x, fark_y, Color.Black);                 
                         for (int i = 0; i < dizi.Length; i++)
                         {
                             bmp.SetPixel(fark_x + dizi[i], fark_y + dizi[i + 1], Color.Black);
                             if (i + 1 == 15) break;
                        }
                     }
-                  //A1 BOLGESİ
+                  //A1 BOLGESİ(açıklama en alt)
                     pictureBox1.Image = bmp;
                 }
             }
